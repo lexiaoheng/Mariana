@@ -20,7 +20,7 @@ impedance_ground_truth = data_dic['impedance'] / 1000
 # construct well logs
 [h, w] = impedance_ground_truth.shape
 mask = np.zeros([1, w])
-mask[:, 170::110] = 1  # Marmousi 170::110
+mask[:,90::100] = 1 # Overthrust 90::100
 well_logs = impedance_ground_truth * mask
 
 # use eif
