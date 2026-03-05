@@ -8,8 +8,6 @@ from .func.model import Model
 from torch.utils.data import DataLoader
 from .func.utils import ImpedanceDataset1D
 
-# 1. load data
-
 
 def PIAI(seismic, well_log, weighting='Equal', wavelet_len=301):
 
