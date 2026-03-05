@@ -24,11 +24,9 @@ mask[:,90::100] = 1 # Overthrust 90::100
 well_logs = impedance_ground_truth * mask
 
 # use eif
-<<<<<<< HEAD
+
 out, wave = Inversion.PIAI(seismic, well_logs)
-=======
-out = Inversion.EIF(seismic, well_logs)
->>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
+
 print('SNR: %.4f , SSIM: %.4f , R2: %.4f, MAE: %.4f, MSE: %.4f ' % (utils.evaluate(impedance_ground_truth, out, 'SNR'),
                                                                     utils.evaluate(impedance_ground_truth, out, 'SSIM'),
                                                                     utils.evaluate(impedance_ground_truth, out, 'R2'),
