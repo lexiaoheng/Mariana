@@ -23,7 +23,7 @@ mask = np.zeros([1, w])
 mask[:,90::100] = 1 # Overthrust 90::100
 well_logs = impedance_ground_truth * mask
 
-# use eif
+# use PIAI
 
 out, wave = Inversion.PIAI(seismic, well_logs)
 
