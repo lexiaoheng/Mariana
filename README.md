@@ -19,7 +19,7 @@
   <p align="center">
     Seismic Noise Attenuation, Reconstruction and Inversion 
     <br />
-    <a href="https://github.com/lexiaoheng/Mariana/tree/main/NoiseAttenuation/"><strong>Explore seismic processing algorithms></strong></a>
+    <a href="https://github.com/lexiaoheng/Mariana/tree/main/Mariana_Core/NoiseAttenuation/"><strong>Explore seismic processing algorithms></strong></a>
     <br />
     <br />
     <a href="https://github.com/lexiaoheng/Mariana/tree/main/Demo_noise_attenuation.m">Start</a>
