@@ -31,8 +31,11 @@ def EIF(seismic, well_log):
 
     mode = 'encoder'
     print('Training encoder')
+<<<<<<< HEAD
 
     alpha = 0.5
+=======
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
     with tqdm(total=epoch_seismic) as t:
         for i in range(epoch_seismic):
             for x, n in seismic_dataloader1D:
@@ -41,7 +44,11 @@ def EIF(seismic, well_log):
 
                 loss1 = loss_func(x, re)
                 loss2 = loss_func(n, n_out)
+<<<<<<< HEAD
                 loss = 2 * ( alpha * loss1 + (1 - alpha) * loss2)
+=======
+                loss = loss1 + loss2
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
 
                 optimizer.zero_grad()
                 loss.backward()

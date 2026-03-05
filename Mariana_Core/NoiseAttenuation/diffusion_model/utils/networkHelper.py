@@ -139,7 +139,11 @@ def ddim_t_seq(t):
         l = 4
     else:
         l = 4
+<<<<<<< HEAD
     t_seq = np.linspace(1, t, l, dtype=np.int32, endpoint=True)
+=======
+    t_seq = np.linspace(1, t, l, dtype=np.int, endpoint=True)
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
 
     return t_seq
 

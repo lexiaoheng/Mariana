@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 from Mariana_Core.Inversion.physics_informed_acoustic_inversion.main import weighting
 
 # Mariana: Open-Sourse Seismic Toolbox 
 
 - Mariana V1.0.2: Seismic toolbox with some published works on seismic reconstruction, noise attenuation and inversion.  
+=======
+
+
+# Mariana: Open-Sourse Seismic Toolbox 
+
+- Mariana V0.1.0: Seismic toolbox with some published works on seismic reconstruction, noise attenuation and inversion.  
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
 - This repository is supported and maintained for a long time, so please issue if you run into problems.
 - Welcome to participate in the construction.
 
@@ -52,7 +60,10 @@ from Mariana_Core.Inversion.physics_informed_acoustic_inversion.main import weig
   - <b>Post-Stacked Inversion</b>
     - [Encoder-Inverter Framework](#encoder-inverter-framework)
     - [Dual-Banch Double Inversion](#dual-branch-double-inversion)
+<<<<<<< HEAD
     - [Physics-Informed Acoustic Inversion](#physics-informed-acoustic-inversion)
+=======
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
 
 ### <span style="color: #2D3C81;"> 5. Utils </span>
   - [Evaluation](#evaluation)
@@ -88,7 +99,10 @@ Reconstruction.SCL(data, missing_mask)
 ## Inversion
 Inversion.EIF(data, well_log)
 Inversion.DBDI(data, well_log)
+<<<<<<< HEAD
 Inversion.PIAI(data, well_log, weighting='Equal', wavelet_len=301)
+=======
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
 
 ## utils
 utils.evaluate(label, prediction, method)
@@ -212,7 +226,11 @@ utils.noise_level_estimate(data)
 
   - #### Reference:
 
+<<<<<<< HEAD
     - [Peng J, Liu Y, Wang M, et al. An Efficient Self‐Supervised Seismic Data Reconstruction Method Based on Self‐Consistency Learning. Geophysical Prospecting, 2026, 74(2): e70144.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2478.70144)  
+=======
+    - [Peng J, Liu Y, Wang M, et al. Zero-Shot Self-Consistency Learning for Seismic Irregular Spatial Sampling Reconstruction. arXiv preprint arXiv:2411.00911, 2024.](https://arxiv.org/pdf/2411.00911)  
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
  
 </td></table>
 
@@ -244,8 +262,12 @@ utils.noise_level_estimate(data)
 
   - #### Reference:
 
+<<<<<<< HEAD
     - [Peng J, Liu Y, Wang X, et al. Encoder-Inverter Framework for Seismic Acoustic Impedance Inversion. arXiv preprint arXiv:2507.19933, 2025.](https://arxiv.org/abs/2507.19933)  
  
+=======
+     - [Peng J, Liu Y, Wang M, et al. Encoder-Inverter Framework for Seismic Acoustic Impedance Inversion. arXiv preprint arXiv:2507.19933, 2025.](https://arxiv.org/abs/2507.19933)  
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
 
 </td></table>
 
@@ -279,6 +301,7 @@ utils.noise_level_estimate(data)
 
 </td></table>
 
+<<<<<<< HEAD
 <table><td>
 
 - ### **Physics-Informed Acoustic Inversion**
@@ -313,6 +336,8 @@ utils.noise_level_estimate(data)
 
 </td></table>
 
+=======
+>>>>>>> 7666eb5d9ae5a34ae7158fb5daa02bb8cfccb2c8
 ## <b><span style="color: #2D3C81;"> Utils </span></b>
 
 <table><td>
