@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from Mariana_Core import NoiseAttenuation, utils
 
 # 读数据
-data = scio.loadmat('./test_data/testdata_for_noiseattenuation.mat')['data'].astype('float32')
+data = scio.loadmat('./Demo_data/testdata_for_noiseattenuation.mat')['data'].astype('float32')
 
 # 合成含噪数据
 [h, w] = data.shape
