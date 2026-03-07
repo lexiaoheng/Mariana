@@ -65,8 +65,8 @@
 ### **Environment**
 
 1. Anaconda (Make sure to configure it into an environment variable)
-2. Anaconda environment (Python 3.7.11 is recommended)
-3. CUDA and cuDNN (Select the appropriate version according to the requirements.txt of project you need)
+2. Anaconda environment (Python 3.8 is recommended)
+3. CUDA and cuDNN (Select the appropriate version according to your devices)
 
 ### **Quick Start**
 
