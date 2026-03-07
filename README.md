@@ -210,7 +210,7 @@ utils.noise_level_estimate(data)
 
   - #### Reference:
 
-    - [Peng J, Liu Y, Wang M, et al. An Efficient Self‐Supervised Seismic Data Reconstruction Method Based on Self‐Consistency Learning. Geophysical Prospecting, 2026, 74(2): e70144.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2478.70144)  
+    - [Wang M, Peng J, Liu Y et al. An Efficient Self‐Supervised Seismic Data Reconstruction Method Based on Self‐Consistency Learning. Geophysical Prospecting, 2026, 74(2): e70144.](https://onlinelibrary.wiley.com/doi/abs/10.1111/1365-2478.70144)  
 
  
 </td></table>
