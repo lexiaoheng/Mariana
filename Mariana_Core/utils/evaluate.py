@@ -17,7 +17,7 @@ def evaluate(label, output, method='MAE'):
         return mse / sigma2
 
     if method == 'SNR':
-        return 10 * np.log10(np.sum(label ** 2) / np.sum(((label - output) ** 2)))
+        return 10 * np.log10(np.mean(label ** 2) / np.mean((output - label) ** 2))
 
     if method == 'PCC':
         label_mean = np.mean(label)
