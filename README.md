@@ -243,7 +243,7 @@ utils.noise_level_estimate(data)
 
   - #### Reference:
 
-    - [Peng J, Liu Y, Wang X, et al. Encoder-Inverter Framework for Seismic Acoustic Impedance Inversion. arXiv preprint arXiv:2507.19933, 2025.](https://arxiv.org/abs/2507.19933)  
+    - [Peng J, Liu Y, Wang M, et al. Encoder–Inverter framework for seismic acoustic impedance inversion. Engineering Applications of Artificial Intelligence, 2026, 176: 114673.](https://www.sciencedirect.com/science/article/pii/S0952197626009553)  
 
 </td></table>
 
