@@ -151,7 +151,7 @@ utils.noise_level_estimate(data)
 
   - #### Reference:
 
-    - [Peng J, Li Y, LIu Y, et al. Adaptive Convolutional Filter for Seismic Noise Attenuation. arXiv preprint arXiv:2410.18896, 2024.](https://arxiv.org/pdf/2410.18896)
+    - [Peng J, Wang X, Liu Y, et al. Prior-Driven unsupervised lightweight learning method for seismic signal denoising. Earth Science Informatics, 2026, 19(7): 97.](https://link.springer.com/article/10.1007/s12145-026-02154-2)
 
 </td></table>
 

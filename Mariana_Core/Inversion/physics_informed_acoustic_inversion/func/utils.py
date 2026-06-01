@@ -17,8 +17,8 @@ class ImpedanceDataset1D(Dataset):
 
         trace_index = self.trace_indices[index]
 
-        x = torch.tensor(self.seismic[:,trace_index], dtype=torch.float).unsqueeze(0).to(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
-        y = torch.tensor(self.model[:,trace_index], dtype=torch.float).unsqueeze(0).to(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
+        x = torch.tensor(self.seismic[:, trace_index], dtype=torch.float).unsqueeze(0).to(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
+        y = torch.tensor(self.model[:, trace_index], dtype=torch.float).unsqueeze(0).to(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
 
         return x, y
 
