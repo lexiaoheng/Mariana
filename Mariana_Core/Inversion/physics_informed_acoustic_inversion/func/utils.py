@@ -110,8 +110,8 @@ def forward_synthetic(wavelet, impedance):
 
 class AutomaticWeightedLoss(nn.Module):
     """
-    Params：
-        num: int，the number of loss
+    Params:
+        num: int, the number of loss
         x: multi-task loss
     """
     def __init__(self, num=3):
