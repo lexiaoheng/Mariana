@@ -42,7 +42,7 @@ def DPM(data, ddim=True):
 
     best_model_path = './Mariana_core/NoiseAttenuation/diffusion_model/Pretrained_model.pth'
     if os.path.exists(best_model_path):
-        model.load_state_dict(torch.load(best_model_path))
+        model.load_state_dict(torch.load(best_model_path, map_location=device))
 
         DPM = SimpleDiffusionTrainer(mode='validation',
                                          device=device,
